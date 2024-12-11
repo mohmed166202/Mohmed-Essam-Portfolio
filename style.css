@@ -1,0 +1,171 @@
+/* تخصيص اللون الخلفي و تنسيق النص */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1f1f1f; /* خلفية داكنة */
+    color: #fff; /* نص أبيض */
+    margin: 0;
+    padding: 0;
+}
+
+/* تنسيق الـ header */
+header {
+    text-align: center;
+    padding: 60px;
+    background: linear-gradient(45deg, #333, #555); /* خلفية متدرجة */
+    border-bottom: 4px solid #7f8c8d; /* خط تحت العنوان باللون الرمادي */
+}
+
+/* تخصيص شكل الصورة الشخصية */
+.profile-image {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+}
+
+.profile-image:hover {
+    transform: scale(1.1); /* تكبير الصورة عند التمرير عليها */
+}
+
+/* تخصيص الـ About Me النصوص */
+header h1 {
+    font-size: 36px;
+    color: #7f8c8d; /* تغيير اللون للرمادي */
+    animation: fadeInUp 1.5s ease-out;
+}
+
+header p {
+    font-size: 18px;
+    color: #fff;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* تعريف الأنيميشين */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* تنسيق القسم الخاص بالمشاريع */
+section#projects {
+    background-color: #333;
+    padding: 40px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.project {
+    background: #444;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-5px); /* تأثير رفع العنصر عند التمرير عليه */
+}
+
+.project h3 {
+    color: #7f8c8d; /* تغيير اللون للرمادي */
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.project p {
+    font-size: 16px;
+    color: #ccc;
+}
+
+/* تخصيص الصور الخاصة بالتكنولوجيا */
+.project img {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+.project img:hover {
+    transform: scale(1.2); /* تكبير الصور عند التمرير عليها */
+}
+
+/* إضافة رابط Google Drive تحت كل مشروع */
+.project a {
+    display: block;
+    color: #7f8c8d;
+    margin-top: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+/* قسم الاتصال */
+section#contact {
+    text-align: center;
+    background: #222;
+    color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+section#contact a {
+    color: #1abc9c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section#contact a:hover {
+    text-decoration: underline;
+}
+
+/* إضافة تأثير حركة عند التمرير على المشروع */
+.project:nth-child(even) {
+    animation: slideInLeft 1s ease-out;
+}
+
+.project:nth-child(odd) {
+    animation: slideInRight 1s ease-out;
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
