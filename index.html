@@ -1,118 +1,326 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mohmed Essam Portfolio</title>
-    <!-- ربط ملف الـ CSS -->
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!-- أول قسم (الـ About Me) -->
-    <header>
-        
-        <h1>Mohmed Essam</h1>
-        <p>AI Developer | Data Scientist | ML Engineer</p>
-        <p>I’m a dedicated AI Developer with a strong passion for building intelligent systems that merge deep learning, NLP, and computer vision to solve complex real-world problems. My work spans from developing generative AI models and custom neural networks to deploying scalable AI-powered applications. I enjoy turning cutting-edge research into practical, production-ready solutions. With a strong focus on clean architecture, performance, and innovation, I strive to push the boundaries of what AI can do in real-world products.</p>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="format-detection" content="telephone=no" />
+    <link
+      rel="preconnect"
+      href="https://static-assets.jimstatic.com/renderer/"
+      crossorigin
+    />
+    <link rel="preconnect" href="https://storage.e.jimdo.com/" crossorigin />
+    <link rel="preconnect" href="https://fonts.jimstatic.com/" crossorigin />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="https://static-assets.jimstatic.com/renderer/static/default-website-favicon.1a874ea70dbf3a4b0e0e..png"
+    />
+    <title>Mohmed Essam | AI Developer & Data Scientist</title>
+    <script>
+      window.__dolphin_environment__ = "prod";
+    </script>
+    <meta name="robots" content="index, follow, archive" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Mohmed Essam | AI Portfolio" />
+    <meta property="og:site_name" content="Mohmed Essam Portfolio" />
+    <meta
+      property="og:description"
+      content='AI Developer, Data Scientist, Machine Learning Expert, Computer Vision Engineer, NLP Specialist'
+    />
+    <meta
+      name="description"
+      content='Mohmed Essam - AI Developer, Data Scientist, Machine Learning Expert, Computer Vision Engineer, NLP Specialist'
+    />
+    <meta
+      property="og:image"
+      content="images/853f0b73-1bf0-44cd-b58f-908bfb8239fb.avif"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <link
+      href="https://static-assets.jimstatic.com/renderer/static/ce4da5928908d9ff18d8.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.jimstatic.com/css?display=swap&family=Poppins:600,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.jimstatic.com/css?display=swap&family=Roboto:400,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header">
+      <nav class="navbar container">
+        <a href="#" class="nav-logo">Mohmed Essam</a>
+        <div class="nav-links">
+          <a href="#home" class="active">Home</a>
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#education">Education</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+          <button class="theme-toggle" id="themeToggle">
+            <i class="fas fa-moon"></i>
+          </button>
+        </div>
+      </nav>
     </header>
 
-   <!-- قسم المشاريع -->
-<section id="projects">
-    <!-- أول 6 مشاريع من الـ CV -->
-    <div class="project">
-        <h3>Conditional Variational Autoencoder (CVAE) for Image Generation</h3>
-        <p>Description:
-            This project leverages a Conditional Variational Autoencoder (CVAE) to generate RGB images conditioned on class labels. The CVAE combines the power of latent space representation with class-specific information, enabling the generation of realistic images tailored to different categories.</p>
-        <a href="https://github.com/mohmed166202/VAE-project" target="_blank">View on github</a>
-    </div>
-
-    <div class="project">
-        <h3>Branch Optimization for Fawry Using KDTree and Spatial Analysis</h3>
-        <p>Description:
-            This project focuses on optimizing branch selection for Fawry to maximize sales coverage while minimizing operational costs. By leveraging geospatial analysis and clustering techniques, it identifies optimal branch locations to ensure maximum efficiency.</p>
-        <a href="https://github.com/mohmed166202/Branch-Optimization-for-Fawry-Using-KDTree-and-Spatial-Analysis" target="_blank">View on github</a>
-    </div>
-
-    <div class="project">
-        <h3>AI-Powered Vocabulary English Test</h3>
-        <p>Description:
-            This project is a fully adaptive vocabulary testing system powered by AI and WordNet. It generates multiple-choice questions (MCQs) dynamically, evaluates user responses, and determines their English language proficiency based on the Common European Framework of Reference (CEFR) levels. The system ensures personalized difficulty progression and provides detailed feedback after every session.</p>
-        <a href="https://github.com/mohmed166202/AI-Powered-Vocabulary-English-Test" target="_blank">View on github</a>
-    </div>
-
-
-    <div class="project">
-        <h3>Vethub Website(GP2024)</h3>
-        <p>Developed an advanced chatbot for veterinary doctors integrating NLP and CV technologies to interpret veterinary terminology and diagnose pet conditions.</p>
-        <a href="https://drive.google.com/drive/folders/1ieYjZ--vwuNh_eESBkjz3gLSkGJN1eg_?usp=sharing" target="_blank">View on Drive</a>
-    </div>
-
-
-    <!-- 3 مشاريع إضافية لم تذكرها في الـ CV -->
-    <div class="project">
-        <h3>Credit Card Fraud Detection Using TabNet Classifier</h3>
-        <p>Description:
-            This project aims to detect fraudulent transactions in credit card data using advanced machine learning techniques. It preprocesses data, balances imbalanced classes, and implements TabNet—a deep learning architecture optimized for tabular data.
-            
-            
-            </p>
-        <a href="https://github.com/mohmed166202/Credit-Card-Fraud-Detection" target="_blank">View on github</a>
-    </div>
-
-    <div class="project">
-        <h3>Customer Segmentation Using DBSCAN Clustering</h3>
-        <p>Description:
-            This project leverages advanced clustering techniques to segment customers based on their behaviors and spending patterns. It preprocesses customer data, reduces dimensions using PCA, and applies DBSCAN to identify meaningful clusters.</p>
-        <a href="https://github.com/mohmed166202/Customer-Segmentation-Project-using-Mall_Customers-Data" target="_blank">View on github</a>
-    </div>
-
-    <div class="project">
-        <h3>AI-Powered-Product-Description-Generator</h3>
-        <p>Description:
-            This project uses NLP and transformer models (like GPT) to automatically generate compelling product descriptions for e-commerce listings. It ensures SEO optimization, language fluency, and relevance to improve product visibility and engagement across platforms.
-
-</p>
-        <a href="https://github.com/mohmed166202/AI-Powered-Product-Description-Generator" target="_blank">View on github</a>
-    </div>
-    <div class="project">
-        <h3>Intelligent-Personalized-Knowledge-Assistant</h3>
-        <p>Description:This AI assistant uses natural language processing to interact with users, answer questions, and summarize personalized knowledge from uploaded documents or URLs. It dynamically adapts to user context, offering tailored information and smart recommendations based on user queries.</p>
-        <a href="https://github.com/mohmed166202/Intelligent-Personalized-Knowledge-Assistant" target="_blank">View on github</a>
-    </div>
-    <div class="project">
-        <h3>official-telegrambot-for-printrado</h3>
-        <p>Description:A custom-built Telegram bot designed for Printrado’s e-commerce services. It allows users to browse books, get recommendations, and receive real-time responses through conversational AI. The bot integrates NLP, keyword matching, and category filtering for seamless user interaction.
-
-        </p>
-        <a href="https://github.com/mohmed166202/official-telegrambot-for-printrado" target="_blank">View on github</a>
-    </div>
-
-    <div class="project">
-        <h3>Ecommerce-nlp-chatbot</h3>
-        <p>Description:An end-to-end chatbot designed for online stores. It leverages intent classification, entity recognition, and dialogue management to assist users with product searches, order tracking, and FAQs. Built using NLP pipelines and trained on domain-specific data for high accuracy.
-
-        </p>
-        <a href="https://github.com/mohmed166202/ecommerce-nlp-chatbot" target="_blank">View on github</a>
-    </div>    
-
-    <div class="project">
-        <h3>E-Commerce Product Rating Prediction and Recommendation System</h3>
-        <p>Description:
-            This project builds a machine learning model to predict product ratings for e-commerce platforms and provides personalized product recommendations. It cleans and preprocesses data from multiple sources, normalizes features, and uses a deep learning model to predict ratings based on key factors like price, existing ratings, and review counts.</p>
-        <a href="https://github.com/mohmed166202/E-Commerce-Tech-Dataset" target="_blank">View on github</a>
-    </div>
-</section>
-
-
-    <!-- القسم الثالث (Contact Info) -->
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:mohmedessam166202@gmail.com">mohmedessam166202@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/mohmed-essam-a5630a228">My LinkedIn</a></p>
-        <p>GitHub: <a href="https://github.com/mohmed166202">My GitHub</a></p>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h1 class="fade-in">Mohmed Essam</h1>
+        <p class="fade-in delay-1">AI Developer & Data Scientist</p>
+        <p class="fade-in delay-2">NLP | Machine Learning | Computer Vision</p>
+        <a href="#contact" class="btn fade-in delay-3">Get In Touch</a>
+      </div>
+    </section>
+    <br>
+    <br>
+    <!-- About Section -->
+    <section id="about" class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-card fade-in">
+          <img src="images/3a983e8d-5e5c-400e-8924-941044275cfd.avif" alt="Mission">
+          <h3>My Mission</h3>
+          <p>To leverage AI and data science to create innovative solutions that improve lives, drive efficiency, and unlock new opportunities across industries.</p>
+        </div>
+        <div class="about-card fade-in delay-1">
+          <img src="images/IMG-20240817-WA0007.jpg" alt="About Me">
+          <h3>Who I Am</h3>
+          <p>I am Mohmed Essam, a passionate AI Developer and Data Scientist with expertise in building intelligent systems using cutting-edge technologies.</p>
+        </div>
+        <div class="about-card fade-in delay-2">
+          <img src="images/22ac8ef2-6ce4-47c3-95a8-015f2f802a12.webp" alt="Skills">
+          <h3>My Expertise</h3>
+          <p>Python, TensorFlow, PyTorch, OpenCV, NLP, Data Science, Machine Learning, Deep Learning, and more.</p>
+        </div>
+      </div>
+    </section>
+    <br>
+    <br>
+    <!-- Experience Section -->
+    <section id="experience" class="container">
+      <h2 class="section-title">Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item fade-in">
+          <div class="timeline-content">
+            <span class="timeline-date">Jan 2025 - Present</span>
+            <h3>Code Cruze Company</h3>
+            <p><strong>Junior AI Engineer</strong></p>
+            <p>New Cairo, Egypt</p>
+            <ul>
+              <li>Led the development and deployment of AI and ML projects using pre-trained models.</li>
+              <li>Designed and implemented integrations between machine learning models and MySQL databases.</li>
+              <li>Managed end-to-end deployment using Docker and AWS, ensuring scalability and efficiency.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item fade-in delay-1">
+          <div class="timeline-content">
+            <span class="timeline-date">Aug 2023 - Sep 2023</span>
+            <h3>Information Technology Institute (ITI)</h3>
+            <p><strong>AI Developer, Summer Code Camp</strong></p>
+            <p>Cairo, Egypt</p>
+            <ul>
+              <li>Probability and Statistics for Machine Learning</li>
+              <li>Linear Algebra for Data Science</li>
+              <li>Data Preparation and Exploration</li>
+              <li>Neural Network & Deep Learning</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item fade-in delay-2">
+          <div class="timeline-content">
+            <span class="timeline-date">Feb 2021 - May 2023</span>
+            <h3>Elgammal Electronics Company</h3>
+            <p><strong>Hardware Engineer</strong></p>
+            <p>Cairo, Egypt</p>
+            <ul>
+              <li>Developed a service to automatically perform a set of unit tests daily on a product in development, decreasing time needed for team members to identify and fix bugs/issues.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br>
+    <br>
+    <!-- Education Section -->
+    <section id="education" class="container">
+      <h2 class="section-title">Education</h2>
+      <div class="timeline">
+        <div class="timeline-item fade-in">
+          <div class="timeline-content">
+            <span class="timeline-date">Sep 2020 - Jun 2024</span>
+            <h3>Cairo University</h3>
+            <p><strong>Bachelor of Computers and Artificial Intelligence</strong></p>
+            <p>Major : Artificial Intelligence (AI) </p>
+            <p>Giza, Egypt</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br>
+    <!-- Projects Section -->
+    <section id="projects" class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        
+        <div class="project-card fade-in">
+          <img src="images/Project1.jpg" alt="Branch Optimization" class="project-img">
+          <div class="project-content">
+            <h3>Semantic Book Search and Recommendation API with RAG</h3>
+            <p>May 2025</p>
+            <div class="project-tech">
+              <span class="tech-tag">FastAPI</span>
+              <span class="tech-tag">FAISS</span>
+              <span class="tech-tag">Sentence-Transformers</span>
+              <span class="tech-tag">MySQL</span>
+              <span class="tech-tag">Gemini-API</span>
+            </div>
+            <ul>
+              <li>Developed a semantic book recommendation API using sentence embeddings, FAISS indexing, and Google Gemini for Retrieval-Augmented Generation (RAG).</li>
+              <li>Built a FastAPI backend with endpoints for intelligent search, chat-based recommendations, and real-time vector embedding generation.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="project-card fade-in  delay-1">
+          <img src="images/Project2.jpg" alt="NLP Chatbot" class="project-img">
+          <div class="project-content">
+            <h3>SmartBook NLP Recommender with RAG</h3>
+            <p>February 2025</p>
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Telegram-Bot-API</span>
+              <span class="tech-tag">
+                Sentence-Transformers</span>
+              <span class="tech-tag">Docker</span>
+              <span class="tech-tag">MySQL</span>
+              <span class="tech-tag">AWS</span>
+            </div>
+            <ul>
+              <li>Developed a smart Telegram bot that delivers personalized book recommendations using semantic search and NLP techniques.
+              </li>
+              <li>Integrated MySQL and AWS RDS for secure, scalable storage and implemented user-friendly features like spelling correction, image previews, and topic-based search.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="project-card fade-in delay-2">
+          <img src="images/Project3.jpg" alt="AI Vocabulary Test" class="project-img">
+          <div class="project-content">
+            <h3>AI Vocabulary English Test</h3>
+            <p>November 2023</p>
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Pandas</span>
+              <span class="tech-tag">WordNet</span>
+              <span class="tech-tag">NLP</span>
+            </div>
+            <ul>
+              <li>Developed an AI-powered vocabulary test generator that creates multiple-choice questions (MCQs) using WordNet and Natural Language Processing (NLP) techniques.</li>
+              <li>Assessed a user's English vocabulary proficiency based on CEFR levels (A1 to C2).</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="see-more-projects fade-in delay-3">
+        <a href="https://github.com/mohmed166202" target="_blank" class="btn btn-github">
+          <i class="fab fa-github"></i> See More Projects on GitHub
+        </a>
+      </div>
     </section>
 
-    <!-- ربط ملف الـ JavaScript -->
+    <br>
+    <br>
+    <!-- Skills Section -->
+    <section id="skills" class="container">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-container">
+        <span class="skill-chip"><i class="fab fa-python"></i> Python</span>
+        <span class="skill-chip"><i class="fas fa-brain"></i> TensorFlow</span>
+        <span class="skill-chip"><i class="fas fa-project-diagram"></i> PyTorch</span>
+        <span class="skill-chip"><i class="fas fa-eye"></i> OpenCV</span>
+        <span class="skill-chip"><i class="fas fa-robot"></i> Scikit-learn</span>
+        <span class="skill-chip"><i class="fas fa-language"></i> NLP</span>
+        <span class="skill-chip"><i class="fas fa-comment-dots"></i> spaCy</span>
+        <span class="skill-chip"><i class="fas fa-book"></i> NLTK</span>
+        <span class="skill-chip"><i class="fas fa-robot"></i> Hugging Face</span>
+        <span class="skill-chip"><i class="fas fa-table"></i> Pandas</span>
+        <span class="skill-chip"><i class="fas fa-calculator"></i> NumPy</span>
+        <span class="skill-chip"><i class="fas fa-chart-line"></i> Matplotlib</span>
+        <span class="skill-chip"><i class="fas fa-chart-bar"></i> Seaborn</span>
+        <span class="skill-chip"><i class="fas fa-book-open"></i> Jupyter</span>
+        <span class="skill-chip"><i class="fab fa-git-alt"></i> Git</span>
+        <span class="skill-chip"><i class="fab fa-docker"></i> Docker</span>
+        <span class="skill-chip"><i class="fas fa-code"></i> VS Code</span>
+        <span class="skill-chip"><i class="fab fa-aws"></i> AWS</span>
+        <span class="skill-chip"><i class="fas fa-database"></i> MySQL</span>
+        <span class="skill-chip"><i class="fas fa-chart-pie"></i> Power BI</span>
+        <span class="skill-chip"><i class="fas fa-copyright"></i> C++</span>
+        <span class="skill-chip"><i class="fas fa-database"></i> SQL</span>
+      </div>
+      
+      <h3 style="margin-top: 3rem; color: var(--primary);">Languages</h3>
+      <div class="about-card" style="margin-top: 1rem;">
+        <ul>
+          <li><strong>English:</strong> Proficient in speaking, reading, and writing.</li>
+          <li><strong>Arabic:</strong> Native speaker with excellent fluency in speaking, reading, and writing.</li>
+          <li><strong>Deutsch (German):</strong> Beginner level in speaking, reading, and writing.</li>
+        </ul>
+      </div>
+    </section>
+    <br>
+    <br>
+    <!-- Contact Section -->
+    <section id="contact" class="container">
+      <h2 class="section-title">Contact Me</h2>
+      <div class="about-card fade-in">
+        <div class="contact-info">
+          <i class="fas fa-map-marker-alt contact-icon"></i>
+          <span>103 Masr Helwan Maady, Cairo, Egypt</span>
+        </div>
+        <div class="contact-info fade-in delay-1">
+          <i class="fas fa-envelope contact-icon"></i>
+          <span>mohmedessam166202@gmail.com</span>
+        </div>
+        <div class="contact-info fade-in delay-1">
+          <i class="fab fa-github contact-icon"></i>
+          <a href="https://github.com/mohmed166202" target="_blank">github.com/mohmed166202</a>
+        </div>
+        <div class="contact-info fade-in delay-2">
+          <i class="fab fa-linkedin contact-icon"></i>
+          <a href="https://linkedin.com/in/mohmed-essam-a5630a228" target="_blank">linkedin.com/in/mohmed-essam-a5630a228</a>
+        </div>
+      </div>
+    </section>
+    <br>
+    <br>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Mohmed Essam. All rights reserved.</p>
+    </footer>
+      <div class="whatsapp-float">
+      <a href="https://wa.me/201144258111" target="_blank" class="whatsapp-link">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+      </div>
     <script src="script.js"></script>
-</body>
+     
+    </script>
+  </body>
 </html>
