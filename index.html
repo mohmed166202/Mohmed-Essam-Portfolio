@@ -4,323 +4,348 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="format-detection" content="telephone=no" />
-    <link
-      rel="preconnect"
-      href="https://static-assets.jimstatic.com/renderer/"
-      crossorigin
-    />
-    <link rel="preconnect" href="https://storage.e.jimdo.com/" crossorigin />
-    <link rel="preconnect" href="https://fonts.jimstatic.com/" crossorigin />
-    <link
-      rel="shortcut icon"
-      type="image/png"
-      href="https://static-assets.jimstatic.com/renderer/static/default-website-favicon.1a874ea70dbf3a4b0e0e..png"
-    />
-    <title>Mohmed Essam | AI Developer & Data Scientist</title>
-    <script>
-      window.__dolphin_environment__ = "prod";
-    </script>
+    <title>Mohmed Essam | AI Engineer — Applied AI &amp; LLM Systems</title>
     <meta name="robots" content="index, follow, archive" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Mohmed Essam | AI Portfolio" />
+    <meta property="og:title" content="Mohmed Essam | AI Engineer — Applied AI &amp; LLM Systems" />
     <meta property="og:site_name" content="Mohmed Essam Portfolio" />
     <meta
       property="og:description"
-      content='AI Developer, Data Scientist, Machine Learning Expert, Computer Vision Engineer, NLP Specialist'
+      content="AI Engineer specializing in LLM systems, RAG, NLP, and scalable backends — FastAPI, PyTorch, MongoDB, vector search, and cloud deployment."
     />
     <meta
       name="description"
-      content='Mohmed Essam - AI Developer, Data Scientist, Machine Learning Expert, Computer Vision Engineer, NLP Specialist'
+      content="Mohmed Essam — AI Engineer | Applied AI &amp; LLM Systems. RAG, NLP, FastAPI, multimodal pipelines, Cairo, Egypt."
     />
     <meta
       property="og:image"
-      content="images/853f0b73-1bf0-44cd-b58f-908bfb8239fb.avif"
+      content="https://mohmed166202.github.io/Mohmed-Essam-Portfolio/images/853f0b73-1bf0-44cd-b58f-908bfb8239fb.avif"
     />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://static-assets.jimstatic.com/renderer/static/ce4da5928908d9ff18d8.css"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
-    <link
-      href="https://fonts.jimstatic.com/css?display=swap&family=Poppins:600,700"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.jimstatic.com/css?display=swap&family=Roboto:400,700"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Font Awesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- Header -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
     <header id="header">
-      <nav class="navbar container">
-        <a href="#" class="nav-logo">Mohmed Essam</a>
-        <div class="nav-links">
+      <nav class="navbar container" aria-label="Primary">
+        <a href="#home" class="nav-logo">Mohmed Essam</a>
+        <button
+          type="button"
+          class="nav-toggle"
+          id="navToggle"
+          aria-expanded="false"
+          aria-controls="navMenu"
+          aria-label="Open menu"
+        >
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+        </button>
+        <div class="nav-backdrop" id="navBackdrop" aria-hidden="true"></div>
+        <div class="nav-links" id="navMenu">
           <a href="#home" class="active">Home</a>
           <a href="#about">About</a>
-          <a href="#experience">Experience</a>
           <a href="#education">Education</a>
+          <a href="#experience">Experience</a>
+          <a href="#certifications">Certifications</a>
           <a href="#projects">Projects</a>
           <a href="#skills">Skills</a>
           <a href="#contact">Contact</a>
-          <button class="theme-toggle" id="themeToggle">
-            <i class="fas fa-moon"></i>
+          <button type="button" class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+            <i class="fas fa-moon" aria-hidden="true"></i>
           </button>
         </div>
       </nav>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero" id="home">
-      <div class="hero-content">
-        <h1 class="fade-in">Mohmed Essam</h1>
-        <p class="fade-in delay-1">AI Developer & Data Scientist</p>
-        <p class="fade-in delay-2">NLP | Machine Learning | Computer Vision</p>
-        <a href="#contact" class="btn fade-in delay-3">Get In Touch</a>
-      </div>
-    </section>
-    <br>
-    <br>
-    <!-- About Section -->
-    <section id="about" class="container">
-      <h2 class="section-title">About Me</h2>
-      <div class="about-grid">
-        <div class="about-card fade-in">
-          <img src="images/3a983e8d-5e5c-400e-8924-941044275cfd.avif" alt="Mission">
-          <h3>My Mission</h3>
-          <p>To leverage AI and data science to create innovative solutions that improve lives, drive efficiency, and unlock new opportunities across industries.</p>
-        </div>
-        <div class="about-card fade-in delay-1">
-          <img src="images/IMG-20240817-WA0007.jpg" alt="About Me">
-          <h3>Who I Am</h3>
-          <p>I am Mohmed Essam, a passionate AI Developer and Data Scientist with expertise in building intelligent systems using cutting-edge technologies.</p>
-        </div>
-        <div class="about-card fade-in delay-2">
-          <img src="images/22ac8ef2-6ce4-47c3-95a8-015f2f802a12.webp" alt="Skills">
-          <h3>My Expertise</h3>
-          <p>Python, TensorFlow, PyTorch, OpenCV, NLP, Data Science, Machine Learning, Deep Learning, and more.</p>
-        </div>
-      </div>
-    </section>
-    <br>
-    <br>
-    <!-- Experience Section -->
-    <section id="experience" class="container">
-      <h2 class="section-title">Experience</h2>
-      <div class="timeline">
-        <div class="timeline-item fade-in">
-          <div class="timeline-content">
-            <span class="timeline-date">Jan 2025 - Present</span>
-            <h3>Code Cruze Company</h3>
-            <p><strong>Junior AI Engineer</strong></p>
-            <p>New Cairo, Egypt</p>
-            <ul>
-              <li>Led the development and deployment of AI and ML projects using pre-trained models.</li>
-              <li>Designed and implemented integrations between machine learning models and MySQL databases.</li>
-              <li>Managed end-to-end deployment using Docker and AWS, ensuring scalability and efficiency.</li>
-            </ul>
+    <main id="main-content">
+      <section class="hero" id="home">
+        <div class="hero-content">
+          <h1 class="fade-in">Mohmed Essam</h1>
+          <p class="hero-tagline fade-in delay-1">AI Engineer | Applied AI &amp; LLM Systems</p>
+          <p class="hero-sub fade-in delay-2">LLM systems, RAG, NLP, and scalable AI backends</p>
+          <a href="#contact" class="btn fade-in delay-3">Get In Touch</a>
+          <div class="hero-contact fade-in delay-3">
+            <a href="tel:+201144258111" class="hero-contact-link"><i class="fas fa-phone" aria-hidden="true"></i> +20 1144258111</a>
+            <a href="mailto:mohmedessam166202@gmail.com" class="hero-contact-link"><i class="fas fa-envelope" aria-hidden="true"></i> Email</a>
+            <a href="https://www.linkedin.com/in/mohmed-essam-77088339b/" target="_blank" rel="noopener noreferrer" class="hero-contact-link"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+            <a href="https://github.com/mohmed166202" target="_blank" rel="noopener noreferrer" class="hero-contact-link"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+            <a href="https://mohmed166202.github.io/Mohmed-Essam-Portfolio/" class="hero-contact-link"><i class="fas fa-globe" aria-hidden="true"></i> Portfolio</a>
           </div>
         </div>
-        <div class="timeline-item fade-in delay-1">
-          <div class="timeline-content">
-            <span class="timeline-date">Aug 2023 - Sep 2023</span>
-            <h3>Information Technology Institute (ITI)</h3>
-            <p><strong>AI Developer, Summer Code Camp</strong></p>
-            <p>Cairo, Egypt</p>
-            <ul>
-              <li>Probability and Statistics for Machine Learning</li>
-              <li>Linear Algebra for Data Science</li>
-              <li>Data Preparation and Exploration</li>
-              <li>Neural Network & Deep Learning</li>
-            </ul>
-          </div>
-        </div>
-        <div class="timeline-item fade-in delay-2">
-          <div class="timeline-content">
-            <span class="timeline-date">Feb 2021 - May 2023</span>
-            <h3>Elgammal Electronics Company</h3>
-            <p><strong>Hardware Engineer</strong></p>
-            <p>Cairo, Egypt</p>
-            <ul>
-              <li>Developed a service to automatically perform a set of unit tests daily on a product in development, decreasing time needed for team members to identify and fix bugs/issues.</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    <br>
-    <br>
-    <!-- Education Section -->
-    <section id="education" class="container">
-      <h2 class="section-title">Education</h2>
-      <div class="timeline">
-        <div class="timeline-item fade-in">
-          <div class="timeline-content">
-            <span class="timeline-date">Sep 2020 - Jun 2024</span>
-            <h3>Cairo University</h3>
-            <p><strong>Bachelor of Computers and Artificial Intelligence</strong></p>
-            <p>Major : Artificial Intelligence (AI) </p>
-            <p>Giza, Egypt</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <br>
-    <!-- Projects Section -->
-    <section id="projects" class="container">
-      <h2 class="section-title">Projects</h2>
-      <div class="projects-grid">
-        
-        <div class="project-card fade-in">
-          <img src="images/Project1.jpg" alt="Branch Optimization" class="project-img">
-          <div class="project-content">
-            <h3>Semantic Book Search and Recommendation API with RAG</h3>
-            <p>May 2025</p>
-            <div class="project-tech">
-              <span class="tech-tag">FastAPI</span>
-              <span class="tech-tag">FAISS</span>
-              <span class="tech-tag">Sentence-Transformers</span>
-              <span class="tech-tag">MySQL</span>
-              <span class="tech-tag">Gemini-API</span>
-            </div>
-            <ul>
-              <li>Developed a semantic book recommendation API using sentence embeddings, FAISS indexing, and Google Gemini for Retrieval-Augmented Generation (RAG).</li>
-              <li>Built a FastAPI backend with endpoints for intelligent search, chat-based recommendations, and real-time vector embedding generation.</li>
-            </ul>
-          </div>
-        </div>
-        <div class="project-card fade-in  delay-1">
-          <img src="images/Project2.jpg" alt="NLP Chatbot" class="project-img">
-          <div class="project-content">
-            <h3>SmartBook NLP Recommender with RAG</h3>
-            <p>February 2025</p>
-            <div class="project-tech">
-              <span class="tech-tag">Python</span>
-              <span class="tech-tag">Telegram-Bot-API</span>
-              <span class="tech-tag">
-                Sentence-Transformers</span>
-              <span class="tech-tag">Docker</span>
-              <span class="tech-tag">MySQL</span>
-              <span class="tech-tag">AWS</span>
-            </div>
-            <ul>
-              <li>Developed a smart Telegram bot that delivers personalized book recommendations using semantic search and NLP techniques.
-              </li>
-              <li>Integrated MySQL and AWS RDS for secure, scalable storage and implemented user-friendly features like spelling correction, image previews, and topic-based search.</li>
-            </ul>
-          </div>
-        </div>
-        <div class="project-card fade-in delay-2">
-          <img src="images/Project3.jpg" alt="AI Vocabulary Test" class="project-img">
-          <div class="project-content">
-            <h3>AI Vocabulary English Test</h3>
-            <p>November 2023</p>
-            <div class="project-tech">
-              <span class="tech-tag">Python</span>
-              <span class="tech-tag">Pandas</span>
-              <span class="tech-tag">WordNet</span>
-              <span class="tech-tag">NLP</span>
-            </div>
-            <ul>
-              <li>Developed an AI-powered vocabulary test generator that creates multiple-choice questions (MCQs) using WordNet and Natural Language Processing (NLP) techniques.</li>
-              <li>Assessed a user's English vocabulary proficiency based on CEFR levels (A1 to C2).</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="see-more-projects fade-in delay-3">
-        <a href="https://github.com/mohmed166202" target="_blank" class="btn btn-github">
-          <i class="fab fa-github"></i> See More Projects on GitHub
-        </a>
-      </div>
-    </section>
+      </section>
 
-    <br>
-    <br>
-    <!-- Skills Section -->
-    <section id="skills" class="container">
-      <h2 class="section-title">Technical Skills</h2>
-      <div class="skills-container">
-        <span class="skill-chip"><i class="fab fa-python"></i> Python</span>
-        <span class="skill-chip"><i class="fas fa-brain"></i> TensorFlow</span>
-        <span class="skill-chip"><i class="fas fa-project-diagram"></i> PyTorch</span>
-        <span class="skill-chip"><i class="fas fa-eye"></i> OpenCV</span>
-        <span class="skill-chip"><i class="fas fa-robot"></i> Scikit-learn</span>
-        <span class="skill-chip"><i class="fas fa-language"></i> NLP</span>
-        <span class="skill-chip"><i class="fas fa-comment-dots"></i> spaCy</span>
-        <span class="skill-chip"><i class="fas fa-book"></i> NLTK</span>
-        <span class="skill-chip"><i class="fas fa-robot"></i> Hugging Face</span>
-        <span class="skill-chip"><i class="fas fa-table"></i> Pandas</span>
-        <span class="skill-chip"><i class="fas fa-calculator"></i> NumPy</span>
-        <span class="skill-chip"><i class="fas fa-chart-line"></i> Matplotlib</span>
-        <span class="skill-chip"><i class="fas fa-chart-bar"></i> Seaborn</span>
-        <span class="skill-chip"><i class="fas fa-book-open"></i> Jupyter</span>
-        <span class="skill-chip"><i class="fab fa-git-alt"></i> Git</span>
-        <span class="skill-chip"><i class="fab fa-docker"></i> Docker</span>
-        <span class="skill-chip"><i class="fas fa-code"></i> VS Code</span>
-        <span class="skill-chip"><i class="fab fa-aws"></i> AWS</span>
-        <span class="skill-chip"><i class="fas fa-database"></i> MySQL</span>
-        <span class="skill-chip"><i class="fas fa-chart-pie"></i> Power BI</span>
-        <span class="skill-chip"><i class="fas fa-copyright"></i> C++</span>
-        <span class="skill-chip"><i class="fas fa-database"></i> SQL</span>
-      </div>
-      
-      <h3 style="margin-top: 3rem; color: var(--primary);">Languages</h3>
-      <div class="about-card" style="margin-top: 1rem;">
-        <ul>
-          <li><strong>English:</strong> Proficient in speaking, reading, and writing.</li>
-          <li><strong>Arabic:</strong> Native speaker with excellent fluency in speaking, reading, and writing.</li>
-          <li><strong>Deutsch (German):</strong> Beginner level in speaking, reading, and writing.</li>
+      <section id="about" class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+          <div class="about-card fade-in">
+            <img src="images/3a983e8d-5e5c-400e-8924-941044275cfd.avif" alt="" />
+            <h3>Focus</h3>
+            <p>I design and ship applied AI systems—LLM workflows, retrieval-augmented generation, and production backends that turn unstructured data into reliable decisions.</p>
+          </div>
+          <div class="about-card fade-in delay-1">
+            <img src="images/IMG-20240817-WA0007.jpg" alt="" />
+            <h3>Who I Am</h3>
+            <p>I am Mohmed Essam, an AI Engineer based in Cairo, Egypt. I work across NLP, multimodal pipelines, and cloud-ready services from prototype to deployment.</p>
+          </div>
+          <div class="about-card fade-in delay-2">
+            <img src="images/22ac8ef2-6ce4-47c3-95a8-015f2f802a12.webp" alt="" />
+            <h3>Today</h3>
+            <p>At Marketeers Research FZE, I build AI-driven analytics and LLM-powered pipelines for market research, sentiment, and insight generation on large-scale unstructured data.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="resume-cards">
+          <article class="resume-card fade-in">
+            <div class="resume-card-head">
+              <h3>Cairo University</h3>
+              <span class="resume-card-date">Sep 2020 — Jun 2024</span>
+            </div>
+            <p class="resume-card-role">B.Sc. in Computer Science (AI Specialization)</p>
+            <p class="resume-card-loc">Giza, Egypt</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="experience" class="container">
+        <h2 class="section-title">Experience</h2>
+        <div class="resume-cards">
+          <article class="resume-card fade-in">
+            <div class="resume-card-head">
+              <h3>Marketeers Research FZE</h3>
+              <span class="resume-card-date">Jan 2026 — Present</span>
+            </div>
+            <p class="resume-card-role">AI Engineer</p>
+            <p class="resume-card-loc">Cairo, Egypt</p>
+            <ul class="resume-bullets">
+              <li>Designed and deployed AI-driven analytics solutions supporting market research and decision-making.</li>
+              <li>Built LLM-powered pipelines for text analytics, sentiment detection, and insight generation.</li>
+              <li>Implemented RAG systems on large-scale unstructured datasets.</li>
+              <li>Automated workflows using Python and NLP techniques.</li>
+            </ul>
+          </article>
+          <article class="resume-card fade-in delay-1">
+            <div class="resume-card-head">
+              <h3>DI-BE (Remote)</h3>
+              <span class="resume-card-date">Jun 2025 — Mar 2026</span>
+            </div>
+            <p class="resume-card-role">AI Backend Lead (Project-Based)</p>
+            <p class="resume-card-loc">Abu Dhabi, UAE</p>
+            <ul class="resume-bullets">
+              <li>Led backend design for a digital intelligence platform handling case-centric ingestion and multimedia analysis using FastAPI, MongoDB (Motor), Qdrant, Redis, and Celery.</li>
+              <li>Built Arabic-first NLP pipelines using Hugging Face and PyTorch with multi-GPU aware inference.</li>
+              <li>Implemented advanced RAG pipelines with hybrid retrieval and LangChain integrations.</li>
+              <li>Orchestrated multimodal pipelines (vision, audio, embeddings) with distributed workers and caching.</li>
+              <li>Exposed REST APIs and integrated Neo4j for relationship modeling.</li>
+              <li>Containerized full system using Docker Compose.</li>
+            </ul>
+          </article>
+          <article class="resume-card fade-in delay-2">
+            <div class="resume-card-head">
+              <h3>Code Cruze Company</h3>
+              <span class="resume-card-date">Jan 2025 — Dec 2025</span>
+            </div>
+            <p class="resume-card-role">Junior AI Engineer</p>
+            <p class="resume-card-loc">New Cairo, Egypt</p>
+            <ul class="resume-bullets">
+              <li>Developed AI pipelines leveraging LLM fine-tuning, RAG, and context-aware systems.</li>
+              <li>Integrated AI services with databases and APIs.</li>
+              <li>Built and deployed solutions using Docker and AWS.</li>
+            </ul>
+          </article>
+          <article class="resume-card fade-in">
+            <div class="resume-card-head">
+              <h3>Elgammal Electronics</h3>
+              <span class="resume-card-date">Feb 2021 — May 2023</span>
+            </div>
+            <p class="resume-card-role">Hardware Engineer</p>
+            <p class="resume-card-loc">Cairo, Egypt</p>
+            <ul class="resume-bullets">
+              <li>Reduced bug detection time by 40% using automated testing.</li>
+            </ul>
+          </article>
+          <article class="resume-card fade-in delay-1">
+            <div class="resume-card-head">
+              <h3>Information Technology Institute (ITI)</h3>
+              <span class="resume-card-date">Aug 2023 — Sep 2023</span>
+            </div>
+            <p class="resume-card-role">AI Developer</p>
+            <p class="resume-card-loc">Cairo, Egypt</p>
+            <ul class="resume-bullets">
+              <li>Built ML models for classification tasks.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="certifications" class="container">
+        <h2 class="section-title">Certifications &amp; Courses</h2>
+        <ul class="cert-list fade-in">
+          <li><strong>IBM:</strong> Data Science Professional Certificate</li>
+          <li><strong>Mahara-Tech:</strong> Generative AI</li>
+          <li><strong>HackerRank:</strong> SQL Advanced, Problem Solving</li>
+          <li><strong>365 Data Science:</strong> AI Product Management, Conversational AI</li>
+          <li><strong>Power BI:</strong> Data Visualization</li>
         </ul>
-      </div>
-    </section>
-    <br>
-    <br>
-    <!-- Contact Section -->
-    <section id="contact" class="container">
-      <h2 class="section-title">Contact Me</h2>
-      <div class="about-card fade-in">
-        <div class="contact-info">
-          <i class="fas fa-map-marker-alt contact-icon"></i>
-          <span>103 Masr Helwan Maady, Cairo, Egypt</span>
-        </div>
-        <div class="contact-info fade-in delay-1">
-          <i class="fas fa-envelope contact-icon"></i>
-          <span>mohmedessam166202@gmail.com</span>
-        </div>
-        <div class="contact-info fade-in delay-1">
-          <i class="fab fa-github contact-icon"></i>
-          <a href="https://github.com/mohmed166202" target="_blank">github.com/mohmed166202</a>
-        </div>
-        <div class="contact-info fade-in delay-2">
-          <i class="fab fa-linkedin contact-icon"></i>
-          <a href="https://linkedin.com/in/mohmed-essam-a5630a228" target="_blank">linkedin.com/in/mohmed-essam-a5630a228</a>
-        </div>
-      </div>
-    </section>
-    <br>
-    <br>
+      </section>
 
-    <!-- Footer -->
+      <section id="projects" class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card fade-in">
+            <div class="project-placeholder" role="img" aria-label="Project visual placeholder">
+              <i class="fas fa-server" aria-hidden="true"></i>
+            </div>
+            <div class="project-content">
+              <h3>DI-BE — Digital Intelligence Backend</h3>
+              <ul class="resume-bullets">
+                <li>Built backend for case workflows, RAG pipelines, and multimodal AI processing.</li>
+                <li>Designed scalable async APIs with background workers.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="project-card fade-in delay-1">
+            <img src="images/Project2.jpg" alt="" class="project-img" />
+            <div class="project-content">
+              <h3>NLP Chatbot for Printrado</h3>
+              <p class="project-date">Jan 2025</p>
+              <ul class="resume-bullets">
+                <li>Built chatbot with semantic search.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="project-card fade-in delay-2">
+            <img src="images/Project1.jpg" alt="" class="project-img" />
+            <div class="project-content">
+              <h3>Branch Optimization for Fawry</h3>
+              <p class="project-date">Nov 2023</p>
+              <ul class="resume-bullets">
+                <li>Optimized branch selection over 1M+ records.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="project-card fade-in">
+            <div class="project-placeholder" role="img" aria-label="Project visual placeholder">
+              <i class="fab fa-telegram" aria-hidden="true"></i>
+            </div>
+            <div class="project-content">
+              <h3>AI Telegram Bot</h3>
+              <p class="project-date">Feb 2024</p>
+              <ul class="resume-bullets">
+                <li>Developed conversational automation bot.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="project-card fade-in delay-1">
+            <img src="images/Project3.jpg" alt="" class="project-img" />
+            <div class="project-content">
+              <h3>Vethub Website</h3>
+              <p class="project-date">Jun 2024</p>
+              <ul class="resume-bullets">
+                <li>Built NLP + CV system for disease classification.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+        <div class="see-more-projects fade-in delay-2">
+          <a href="https://github.com/mohmed166202" target="_blank" rel="noopener noreferrer" class="btn btn-github">
+            <i class="fab fa-github" aria-hidden="true"></i> See more on GitHub
+          </a>
+        </div>
+      </section>
+
+      <section id="skills" class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grouped">
+          <div class="skill-group fade-in">
+            <h3 class="skill-group-title">Programming</h3>
+            <p class="skill-group-body">Python, C++, SQL</p>
+          </div>
+          <div class="skill-group fade-in delay-1">
+            <h3 class="skill-group-title">AI/ML</h3>
+            <div class="skill-chips">
+              <span class="skill-chip">PyTorch</span>
+              <span class="skill-chip">Transformers</span>
+              <span class="skill-chip">LLMs</span>
+              <span class="skill-chip">RAG</span>
+              <span class="skill-chip">NLP</span>
+              <span class="skill-chip">CV</span>
+            </div>
+          </div>
+          <div class="skill-group fade-in delay-2">
+            <h3 class="skill-group-title">Backend</h3>
+            <p class="skill-group-body">FastAPI, AsyncIO, Microservices</p>
+          </div>
+          <div class="skill-group fade-in">
+            <h3 class="skill-group-title">Databases</h3>
+            <p class="skill-group-body">MongoDB, Qdrant, Redis</p>
+          </div>
+          <div class="skill-group fade-in delay-1">
+            <h3 class="skill-group-title">DevOps</h3>
+            <p class="skill-group-body">Docker, AWS, CI/CD</p>
+          </div>
+        </div>
+        <h3 class="languages-heading">Languages</h3>
+        <div class="about-card languages-card fade-in">
+          <ul class="resume-bullets">
+            <li><strong>English:</strong> Proficient in speaking, reading, and writing.</li>
+            <li><strong>Arabic:</strong> Native speaker with excellent fluency in speaking, reading, and writing.</li>
+            <li><strong>Deutsch (German):</strong> Beginner level in speaking, reading, and writing.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="contact" class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="about-card fade-in">
+          <div class="contact-info">
+            <i class="fas fa-map-marker-alt contact-icon" aria-hidden="true"></i>
+            <span>Cairo, Egypt</span>
+          </div>
+          <div class="contact-info fade-in delay-1">
+            <i class="fas fa-phone contact-icon" aria-hidden="true"></i>
+            <a href="tel:+201144258111">+20 1144258111</a>
+          </div>
+          <div class="contact-info fade-in delay-1">
+            <i class="fas fa-envelope contact-icon" aria-hidden="true"></i>
+            <a href="mailto:mohmedessam166202@gmail.com">mohmedessam166202@gmail.com</a>
+          </div>
+          <div class="contact-info fade-in delay-1">
+            <i class="fab fa-github contact-icon" aria-hidden="true"></i>
+            <a href="https://github.com/mohmed166202" target="_blank" rel="noopener noreferrer">github.com/mohmed166202</a>
+          </div>
+          <div class="contact-info fade-in delay-2">
+            <i class="fab fa-linkedin contact-icon" aria-hidden="true"></i>
+            <a href="https://www.linkedin.com/in/mohmed-essam-77088339b/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          </div>
+          <div class="contact-info fade-in delay-2">
+            <i class="fas fa-globe contact-icon" aria-hidden="true"></i>
+            <a href="https://mohmed166202.github.io/Mohmed-Essam-Portfolio/" target="_blank" rel="noopener noreferrer">Portfolio site</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
     <footer>
-      <p>&copy; 2024 Mohmed Essam. All rights reserved.</p>
+      <p>&copy; <span id="footerYear"></span> Mohmed Essam. All rights reserved.</p>
     </footer>
-      <div class="whatsapp-float">
-      <a href="https://wa.me/201144258111" target="_blank" class="whatsapp-link">
-        <i class="fab fa-whatsapp"></i>
+    <div class="whatsapp-float">
+      <a href="https://wa.me/201144258111" target="_blank" rel="noopener noreferrer" class="whatsapp-link" aria-label="WhatsApp">
+        <i class="fab fa-whatsapp" aria-hidden="true"></i>
       </a>
-      </div>
+    </div>
     <script src="script.js"></script>
-     
-    </script>
   </body>
 </html>
